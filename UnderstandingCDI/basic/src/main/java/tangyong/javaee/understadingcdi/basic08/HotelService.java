@@ -29,7 +29,7 @@ public class HotelService {
 			Thread.sleep(3000);
 			return ic.proceed();
 		} finally {
-			System.out.println("Current Time: " + df.format(new Date()) + " Lefting TargetClassName: "+ ic.getTarget().getClass().getName() + 
+			System.out.println("Current Time: " + df.format(new Date()) + " Exiting TargetClassName: "+ ic.getTarget().getClass().getName() + 
 	    			"MethodName: "+ ic.getMethod().getName());
 		}
 	}
