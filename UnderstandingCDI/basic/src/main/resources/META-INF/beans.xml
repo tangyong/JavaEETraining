@@ -7,4 +7,7 @@
 	<interceptors>
 		<class>tangyong.javaee.understadingcdi.basic13.LoggingInterceptor</class>
 	</interceptors>
+	<decorators>
+		<class>tangyong.javaee.understadingcdi.basic15.FromFiveToSixStarHotelDecorator</class>
+	</decorators>
 </beans>
